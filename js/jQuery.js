@@ -296,7 +296,7 @@ jQuery.extend = jQuery.fn.extend = function() {
     // skip the boolean and the target
     i = 2;
   }
-
+  
   // Handle case when target is a string or something (possible in deep copy)
   if ( typeof target !== "object" && !jQuery.isFunction(target) ) {
     target = {};
